@@ -13,12 +13,12 @@ public class hiGuys {
         String modelo, marca, color;
         double precio;
 
-        void perro() {
+       /*public void perro(;) {
         };
-        void perro () {
+        void perrito(;) {
         }
-        void perro () {
-        }
+        void perrotote(;) {
+        }*/
     }
 
 
