@@ -22,5 +22,12 @@ public class Attributes {
         System.out.println("Colour: "+ atrb.colour);
         System.out.println("Model: "+ atrb.model);
         System.out.println("Price: "+ atrb.price);
+
+      //Create instances
+        Auto primerAuto = new Auto();
+        primerAuto.arrancarAuto();
+        primerAuto.acelerarAuto();
+        primerAuto.frenarAuto();
+        primerAuto.apagarAuto();
     }
 }
