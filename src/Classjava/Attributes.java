@@ -25,9 +25,9 @@ public class Attributes {
 
       //Create instances
         Auto primerAuto = new Auto();
-        primerAuto.arrancarAuto();
+        /*primerAuto.arrancarAuto();
         primerAuto.acelerarAuto();
         primerAuto.frenarAuto();
-        primerAuto.apagarAuto();
+        primerAuto.apagarAuto();*/
     }
 }

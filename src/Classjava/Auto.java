@@ -2,19 +2,27 @@ package Classjava;
 
 public class Auto {
 
-    void arrancarAuto(){
-        System.out.println("El auto y arranco OK");
+    //Create atributes Car(Auto)
+    String marca,color;
+    int modelo;
+    double precio;
+
+    void arrancarAuto(String marca,String color,double precio, int modelo){
+        System.out.println("La marca " + marca + " del año "+modelo+ " cuyo color es "+color+ " y su precio es de: $ "+precio+" encendio OK");
     }
 
-    void apagarAuto(){
-        System.out.println("El auto se apago");
+    void apagarAuto(String marca){
+        System.out.println("El auto " + marca + " no se apago");
     }
 
-    void acelerarAuto(){
-        System.out.println("El auto esta Acelerado");
+    void acelerarAuto(String marca){
+        System.out.println("El auto "+marca+" esta acelerado");
     }
 
-    void frenarAuto(){
-        System.out.println("El auto ya freno");
+    void frenarAuto(String marca){
+        System.out.println("El auto "+marca+" ya freno");
     }
+
+
+
 }
